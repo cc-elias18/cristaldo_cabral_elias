@@ -40,14 +40,29 @@
   animation: rotate 20s linear infinite;
 }
 
-#react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
+#html:hover {
+    filter: drop-shadow(0 0 2em #f06529af);
 }
-#gh:hover {
-    filter: drop-shadow(0 0 2em #f3f3f38e);
+#css:hover {
+    filter: drop-shadow(0 0 2em #2965f19d);
+}
+#js:hover {
+    filter: drop-shadow(0 0 2em #f0da4f85);
+}
+#react:hover {
+    filter: drop-shadow(0 0 2em #61dafbb6);
 }
 #vs:hover {
     filter: drop-shadow(0 0 2em #0099ffaf);
+}
+#workbench:hover {
+    filter: drop-shadow(0 0 2em #00758fb4);
+}
+#bs:hover {
+    filter: drop-shadow(0 0 2em #563d7c);
+}
+#gh:hover {
+    filter: drop-shadow(0 0 2em #f3f3f38e);
 }
 
 @keyframes rotate {

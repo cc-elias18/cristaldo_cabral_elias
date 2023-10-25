@@ -1,7 +1,23 @@
-a{
+.Header a{
     text-decoration: none;
+    font-size:15px;
+    color:black;
 }
 
 .href{
     border-right: .05em solid darkslategrey;
+}
+
+.Header{
+    font-family: verdana;
+}
+
+.Header a:hover{
+    font-size:35px;
+    animation: anchors 1s forwards;
+}
+
+@keyframes anchors {
+    from { font-size: 15px; text-decoration:none}
+    to { font-size: 32px; text-decoration:underline red}
 }

@@ -16,15 +16,15 @@ function Body1(){
                 <h1>Herramientas y tecnologías</h1>
                 <div className='row'>
                     <div className='img_grl'>
-                        <img src={html} alt="Logo de HTML5" />
+                        <img src={html} alt="Logo de HTML5" id="html" />
                         <p>HTML 5</p>
                     </div>
                     <div className='img_grl'>
-                        <img src={css} alt="Logo de CSS3" />
+                        <img src={css} alt="Logo de CSS3" id="css" />
                         <p>CSS 3</p>
                     </div>
                     <div className='img_grl'>
-                        <img src={js} alt="Logo de Javascript" />
+                        <img src={js} alt="Logo de Javascript" id="js" />
                         <p>Javascript</p>
                     </div>
                     <div className='img_grl'>
@@ -38,11 +38,11 @@ function Body1(){
                         <p>Visual Studio Code</p>
                     </div>
                     <div className='img_grl'>
-                        <img src={workbench} alt="Logo de Workbench" />
+                        <img src={workbench} alt="Logo de Workbench" id="workbench" />
                         <p>mySQL Workbench</p>
                     </div>
                     <div className='img_grl'>
-                        <img src={bs} alt="Logo de Bootstrap" />
+                        <img src={bs} alt="Logo de Bootstrap" id="bs" />
                         <p>Bootstrap</p>
                     </div>
                     <div className='img_grl'>
